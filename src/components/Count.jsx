@@ -19,7 +19,7 @@ const Count = () => {
 
 export const CountWithCompiler = () => {
   const [count, setCount] = useState(0);
-  const increment = setCount((count) => count + 1);
+  const increment = () => setCount((count) => count + 1);
   const doubleCounter = count * 2;
 
   return (

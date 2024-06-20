@@ -5,13 +5,13 @@ import "./App.css";
 function App() {
   return (
     <>
-      <section>
+      <main>
+        <h1>React compiler</h1>
         <section>
-          Yoo
           <Count />
           <CountWithCompiler />
         </section>
-      </section>
+      </main>
     </>
   );
 }
