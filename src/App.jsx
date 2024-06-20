@@ -7,7 +7,7 @@ function App() {
     <>
       <section>
         <section>
-          hiii
+          Yoo
           <Count />
           <CountWithCompiler />
         </section>
